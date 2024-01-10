@@ -21,3 +21,6 @@ def program_school(self):
             programs_list.append(program["agency"])
 
         return programs_list
+
+programs = GetPrograms.get_programs()
+print(programs)
